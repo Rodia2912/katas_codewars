@@ -1,0 +1,5 @@
+def combine_names(a,b):
+    name = a
+    lastname = b
+    return f"{name} {lastname}"
+

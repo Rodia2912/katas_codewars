@@ -1,0 +1,13 @@
+def multiTable(n: Int): String = {
+  var multiplo=1
+  var resultado = ""
+  while multiplo<11 do
+    if multiplo==10 then
+      resultado += s"$multiplo * $n = " + multiplo * n
+    else 
+      resultado += s"$multiplo * $n = " + multiplo * n + "\n"
+    multiplo += 1
+
+   return resultado  
+}
+

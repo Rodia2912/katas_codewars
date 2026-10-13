@@ -1,0 +1,9 @@
+object Sol {
+  def highAndLow(numbers: String): String = {
+    val enteros = numbers.split(" ").map(numbers => numbers.toInt)
+    val maximo = enteros.max
+    val minimo = enteros.min
+    
+    return (s"$maximo" + " " + s"$minimo")
+  }
+}
